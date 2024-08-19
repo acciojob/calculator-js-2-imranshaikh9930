@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+
+    .buttons{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	gap:.2rem;
+	width:200px;
+	padding:15px 0;
+
+}
